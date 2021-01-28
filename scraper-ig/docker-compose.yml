@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  web:
+    image: scraper-instagram
+    container_name: scraper-instagram
+    volumes: 
+      - ./Output:/app/persistant
